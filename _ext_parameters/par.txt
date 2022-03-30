@@ -1,0 +1,87 @@
+﻿# Plik parametryczny gry.
+
+# Komentarz zaczyna się od znaku # i obowiązuje do końca linii.
+
+# Parametry są zapisane w postaci par {nazwa}={wartość}.
+
+# Plik nalezy wczytać do obiektu java.util.Properties metodą load() tej klasy
+
+# wg wzoru w programie generatora plików parametrycznych.
+
+#
+
+nazwaGry=Strzelanie do obiektów [pin: 2871, autorzy: Mikołaj Miazek, Maria Sulińska]
+
+# Nazwa gry powinna wyświetlac się gdzieś na planszy albo w tytule okna.
+
+#
+
+# 1. Poziomy gry i pliki opisujące poziom gry. Zawartośc pliku opisującego poziom
+
+#    trzeba opracować i przygotować samodzielnie wg metody stosowanej w tym pliku.
+
+#
+
+liczbaPoziomów=3
+
+# dodatnia liczba całkowita
+
+nazwaBazowaPlikuZOpisemPoziomu=poziom
+
+numeracjaPoziomówZaczynaSięOd=1
+
+# liczba 0 lub 1
+
+rozszerzeniePlikuZOpisemPoziomu=props
+
+#
+
+# 2. Stopnie trudności
+
+#
+
+liczbaStopniTrudności=3
+
+# dodatnia liczba całkowita
+
+zmianaStopniaTrudności=28
+
+# liczba całkowita w zakresie 20..45 - o tyle procent zwiększają się i/lub zmniejszają
+
+# się parametry wpływające na stopień trudności np. prędkość, czas, liczba punktów do zdobycia itp.
+
+#
+
+# 3. Różne wymiary
+
+#
+
+początkowaSzerokośćPlanszy=404
+
+początkowaWysokośćPlanszy=419
+
+początkowaSzerokośćObiektuGryJakoProcentPoczątkowejSzerokościPlanszy=6.52045
+
+#
+
+# 4. Rysowanie tła i obiektów, do których się strzela
+
+#
+
+tło=jednolite
+
+klorTła=168 194 11
+
+# składowe R G B koloru tła, każda w zakresie 0..255
+
+obiektyGry=figuryGeometryczne
+
+figuraObiektuGry=trójkąty
+
+# jedno z: kwadraty prostokąty trójkąty kółka
+
+#
+
+# Jeśli uważasz, że warto dodać jeszcze jakieś parametry dodaj je w dodatkowym
+
+# pliku konfiguracyjnym, obsługiwanym niezależnie od tego pliku parametrycznego.
