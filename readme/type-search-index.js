@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"weloveprameters","l":"ExtPicGameObj"},{"p":"weloveprameters","l":"Gameplay"},{"p":"weloveprameters","l":"Highscores"},{"p":"weloveprameters","l":"PropertiesTxt"},{"p":"weloveprameters","l":"SwingNativePicGameObj"},{"p":"weloveprameters","l":"WeLovePrameters"}]
